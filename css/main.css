@@ -327,6 +327,10 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 .menu-close__icon {
   position: absolute;
   top: 15px;
