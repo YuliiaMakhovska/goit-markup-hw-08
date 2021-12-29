@@ -57,7 +57,9 @@
     border-color: var(--accent-color);
   }
 }
-
+.modal-close__icon {
+  position: absolute;
+}
 .modal-close__button:focus .modal-close__icon,
 .modal-close__button:hover .modal-close__icon {
   fill: var(--accent-color);

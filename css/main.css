@@ -318,10 +318,6 @@ body {
   margin-bottom: 32px;
 }
 
-.mob-menu__link:active {
-  color: var(--accent-color);
-}
-
 .mob-menu__link {
   color: currentColor;
   color: #212121;
@@ -1120,6 +1116,10 @@ body {
 
 .modal-close__button:focus, .modal-close__button:hover {
   border-color: var(--accent-color);
+}
+
+.modal-close__icon {
+  position: absolute;
 }
 
 .modal-close__button:focus .modal-close__icon,
