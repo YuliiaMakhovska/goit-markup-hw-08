@@ -1,6 +1,9 @@
 .join-box {
   // margin-right: 93px;
   margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
 }
 .join-box__title {
   color: var(--main-title-color);

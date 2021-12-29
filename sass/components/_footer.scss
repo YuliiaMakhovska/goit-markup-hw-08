@@ -2,6 +2,9 @@
   background-color: var(--background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 .footer__container {
   display: flex;
@@ -11,15 +14,24 @@
   align-items: flex-start;
   text-align: center;
   // align-items: baseline;
+  @media screen and (min-width: 1199px) {
+    align-items: baseline;
+    justify-content: center;
+    text-align: start;
+  }
 }
 .address-box {
   margin-right: 70px;
   margin-bottom: 60px;
   text-align: center;
+  @media screen and (max-width: 767.5px) {
+    width: 100%;
+    margin-right: 0px;
+  }
 }
 
 .footer-logo {
-  display: flex;
+  // display: flex;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -32,6 +44,9 @@
   &:hover {
     color: var(--accent-color);
   }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 .footer-studio {
   color: var(--third-logo-text-color);
@@ -41,7 +56,7 @@
   margin-bottom: 9px;
 }
 .footer-list__address-link {
-  display: flex;
+  // display: flex;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -53,10 +68,13 @@
   &:hover {
     color: var(--accent-color);
   }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .footer-list__link {
-  display: flex;
+  // display: flex;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -67,5 +85,8 @@
   &:focus,
   &:hover {
     color: var(--accent-color);
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
   }
 }

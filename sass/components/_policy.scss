@@ -5,13 +5,20 @@
 }
 .policy-box__text {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (min-width: 1200) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 10px;
+  }
 }
 .policy-box__item {
   width: 16px;
