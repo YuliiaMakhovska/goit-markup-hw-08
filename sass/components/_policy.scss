@@ -17,7 +17,10 @@
     line-height: 1.71;
   }
   @media screen and (max-width: 400px) {
-    font-size: 10px;
+    font-size: 9px;
+  }
+  @media screen and (max-width: 380px) {
+    font-size: 7px;
   }
 }
 .policy-box__item {

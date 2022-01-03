@@ -185,12 +185,8 @@ body {
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
-  opacity: 0;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-list__link.current:hover::after {
   opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current {
@@ -209,7 +205,6 @@ body {
 .nav-list__mail {
   display: flex;
   align-items: center;
-  padding-right: 50px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 12px;
@@ -228,6 +223,7 @@ body {
     font-size: 14px;
     line-height: 1.33;
     margin-bottom: 0px;
+    padding-right: 50px;
   }
 }
 
@@ -359,6 +355,8 @@ body {
 
 .mob-menu-social-list {
   display: flex;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .mob-menu-social__link {
@@ -371,7 +369,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .mob-menu-social__link {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -384,6 +382,7 @@ body {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
   margin-left: 10px;
+  height: 22px;
 }
 
 .hero {
@@ -475,6 +474,7 @@ body {
   padding-bottom: 6px;
   padding-left: 32px;
   padding-right: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover, .button:focus {
@@ -824,7 +824,7 @@ body {
   box-sizing: border-box;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list__link:hover {
@@ -861,6 +861,7 @@ body {
 }
 
 .clients-list__icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #afb1b8;
 }
 
@@ -1093,7 +1094,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .modal {
-    width: 400px;
+    width: 100%;
   }
 }
 
@@ -1268,7 +1269,13 @@ body {
 
 @media screen and (max-width: 400px) {
   .policy-box__text {
-    font-size: 10px;
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .policy-box__text {
+    font-size: 7px;
   }
 }
 
@@ -1529,7 +1536,7 @@ body {
 
 @media screen and (max-width: 397px) {
   .portfolio-list__top-text {
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=main.css.map */

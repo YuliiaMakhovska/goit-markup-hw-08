@@ -203,22 +203,42 @@
           <ul class="about-list list">
             <li class="about-list__item">
               <div class="about-list__box">
-                <img src="./images/box1.png" alt="пишет код" width="370" />
+                <picture>
+                  <source
+                    srcset="./images/box1.png 1x, 
+                    ./images/box1_2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <img src="./images/box1.png" alt="пишет код" width="370" />
+                </picture>
                 <h3 class="about-list__text">Десктопные приложения</h3>
               </div>
             </li>
             <li class="about-list__item">
               <div class="about-list__box">
+                <picture>
+                  <source
+                    srcset="./images/box2.png 1x, 
+                    ./images/box2_2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
                 <img
                   src="./images/box2.png"
                   alt="мобильное приложение"
                   width="370"
                 />
+                </picture>
                 <h3 class="about-list__text">Мобильные приложения</h3>
               </div>
             </li>
             <li class="about-list__item">
               <div class="about-list__box">
+                <picture>
+                  <source
+                    srcset="./images/box3.png 1x, 
+                    ./images/box3_2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
                 <img
                   src="./images/box3.png"
                   alt="цветовое оформление"
