@@ -333,6 +333,10 @@ body {
   right: 15px;
 }
 
+.mob-menu-nav-list {
+  margin-bottom: 64px;
+}
+
 .mob-menu-nav__tel {
   font-weight: 500;
   font-size: 34px;
@@ -355,8 +359,7 @@ body {
 
 .mob-menu-social-list {
   display: flex;
-  padding-bottom: 0px;
-  padding-top: 0px;
+  font-size: 18px;
 }
 
 .mob-menu-social__link {
@@ -374,15 +377,18 @@ body {
 }
 
 .mob-menu-social__item {
-  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.mob-menu-social__item:first-child {
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .mob-menu-social__item:not(:last-child)::after {
   content: "";
   border-right: 1px solid rgba(33, 33, 33, 0.2);
-  transform: rotate(90deg);
   margin-left: 10px;
-  height: 22px;
 }
 
 .hero {
@@ -934,6 +940,10 @@ body {
 
 .footer-studio {
   color: var(--third-logo-text-color);
+}
+
+.footer-list {
+  margin-top: 20px;
 }
 
 .footer-list__item:not(:last-child) {

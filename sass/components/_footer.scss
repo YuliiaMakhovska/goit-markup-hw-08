@@ -51,7 +51,9 @@
 .footer-studio {
   color: var(--third-logo-text-color);
 }
-
+.footer-list {
+  margin-top: 20px;
+}
 .footer-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
